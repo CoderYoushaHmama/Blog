@@ -1,0 +1,52 @@
+.object-details-section .title{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.object-details-section .author{
+    color: gray;
+    text-align: center;
+}
+
+.object-details-section img{
+    width: 60%;
+    height: 450px;
+    margin-left: 20%;
+    margin-top: 3%;
+    border-radius: 8px;
+}
+
+.object-details-section .object{
+    width: 60%;
+    margin-top: 1%;
+    margin-left: 20%;
+    color: gray;
+}
+
+.object-details-section .edit-div{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.object-details-section .edit-div form button{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.object-details-section .edit-div form .edit{
+    color: white;
+    background: green;
+}
+
+.object-details-section .edit-div form .delete{
+    color: white;
+    background: red;
+    border: none;
+}

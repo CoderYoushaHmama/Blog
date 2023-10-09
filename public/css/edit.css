@@ -1,0 +1,55 @@
+.edit-section .title{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.edit-section form{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.edit-section form .input-title{
+    width: 100%;
+    height: 80px;
+    font-size: 40px;
+}
+
+.edit-section form pre textarea{
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    margin-top: 1%;
+    box-shadow: -2px 2px 13px;
+}
+
+.edit-section form div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.edit-section form div .save-btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+
+.edit-section form div a .cancel-btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.edit-section form .error{
+    color: red;
+}

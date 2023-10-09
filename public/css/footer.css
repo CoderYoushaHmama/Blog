@@ -1,0 +1,35 @@
+footer{
+    background: #15093cbf;
+    padding: 15px 0;
+    margin-top: 20px;
+    height: 200px;
+}
+
+footer .list{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .list .container .list-title{
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}
+
+footer .list .container ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+footer .list .container ul li{
+    margin-top: 4px;
+}
+
+footer .list .container ul li a{
+    text-decoration: none;
+    color: #ffffffa1;
+}

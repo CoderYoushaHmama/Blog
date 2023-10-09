@@ -1,0 +1,69 @@
+.register-section{
+    display: block;
+    width: 35%;
+    height: 500px;
+    margin: 40px 32.5% 0 32.5%;
+    box-shadow: 1px 2px 11px 0;
+    border-radius: 5px;
+}
+
+.register-section h2{
+    height: 40px;
+    line-height: 40px;
+    background: rgb(172, 171, 171);
+    border-radius: 5px 5px 0 0;
+    text-indent: 5%;
+}
+
+.register-section .container form{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.register-section .container form .box{
+    margin-top: 10px;
+}
+
+.register-section .container form .box .input-title{
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.register-section .container form .box .input-text{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+
+.register-section .container form button{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(27, 75, 209);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: 0.5s ease;
+}
+
+.register-section .container form button:hover{
+    background: #595757;
+}
+
+.register-section .create{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.register-section .create a{
+    text-decoration: none;
+}
+
+.register-section .container form .box .error{
+    color: red;
+}

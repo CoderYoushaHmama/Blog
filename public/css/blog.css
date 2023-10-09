@@ -1,0 +1,65 @@
+.blog-section .title{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.blog-section .add-new-object-btn{
+    margin-left: 10%;
+    margin-top: 1%;
+    background: green;
+    color: white;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blog-section hr{
+    margin-top: 1%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.blog-section .post-container{
+    width: 70%;
+    height: 200px;
+    margin-left: 15%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-section .post-container img{
+    width: 40%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.blog-section .post-container .text{
+    width: 55%;
+}
+
+.blog-section .post-container .text .object-title{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.blog-section .post-container .text .user-name{
+    color: gray;
+    margin: 1% 0;
+}
+
+.blog-section .post-container .text .object{
+    margin-top: 5%;
+    color: gray;
+}
+
+.blog-section .post-container .text a button{
+    margin-top: 1.5%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    cursor: pointer;
+}

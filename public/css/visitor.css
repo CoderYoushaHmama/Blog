@@ -1,0 +1,71 @@
+.visitor-section .background{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.visitor-section .background img{
+    width: 100%;
+    height: 400px;
+}
+
+.visitor-section .background .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.visitor-section .background .container .title{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.visitor-section .background .container button{
+    margin-top: 3%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.visitor-section .posts-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.visitor-section .posts-section .post-container{
+    width: 70%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.visitor-section .posts-section .post-container img{
+    width: 40%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.visitor-section .posts-section .post-container .text{
+    width: 55%;
+}
+
+.visitor-section .posts-section .post-container .text .title{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.visitor-section .posts-section .post-container .text .subtitle{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.visitor-section .posts-section .post-container .text .object{
+    color: gray;
+}
